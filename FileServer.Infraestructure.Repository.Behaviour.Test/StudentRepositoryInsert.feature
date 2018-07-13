@@ -3,6 +3,6 @@
 
 @adding
 Scenario: Add two numbers
-	Given I have an Student without Id
-	When I run the method Insert of STudent Repository
-	Then the Student Repository should return a Student with Id
+	Given I have a Student without Id
+	When I run the method Insert of Student Repository
+	Then The Student Repository should return a Student with Id
